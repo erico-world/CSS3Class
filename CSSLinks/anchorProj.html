@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Unvisited link */
+        a:link, 
+        a:visited{
+            color: white;
+            width: 50px;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #099983;
+            text-decoration: none;
+            text-align: center;
+            font: 14px Arial, sans-serif;
+        }
+        
+        a:hover, 
+        a:active{
+            transform: scale(0.5);
+            background-color: #9c6ae1; 
+            border-color: #7443b6;
+        }
+
+        #create{
+            background: #08ea26;
+            color: aliceblue;
+        }
+        #read{
+            background: #8912ff;
+            color: aliceblue;
+        }
+        #update{
+            background: #b96b05;
+            color: aliceblue;
+        }
+        #delete{
+            background: #eb0602;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <a id="create" href="http://" target="_blank" rel="noopener noreferrer">
+            Create
+        </a>
+    </p>
+    <p>
+        <a id="read" href="http://" target="_blank" rel="noopener noreferrer">
+            Read
+        </a>
+    </p>
+    <p>
+        <a id="update" href="http://" target="_blank" rel="noopener noreferrer">
+            Update
+        </a>
+    </p>
+    <p>
+        <a id="delete" href="http://" target="_blank" rel="noopener noreferrer">
+            Delete
+        </a>
+    </p>
+</body>
+</html>

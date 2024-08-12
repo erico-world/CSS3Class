@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Unvisited link */
+        a:link{
+            color: #f00;
+            text-decoration: none;
+            border-bottom: 1px solid green;
+        }
+
+        /* VISITED LINK */
+        a:visited{
+            color: green;
+            text-decoration: none;
+            border-bottom: 1px solid gold;
+        }
+
+        /* When mouse is placed on the link */
+        a:hover{
+              color: #84f; 
+              font-size: 250%;
+              font-family: cursive; 
+              border-bottom: 0;
+        }
+
+        #anchor:focus{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <a href="https://www.bbc.com" target="_blank" title="British Broadcasting Coperation">
+            BBC
+        </a>
+    </p>
+    <p>
+        <a id="anchor" href="https://www.cnn.com" target="_blank" title="Cable Network News">
+            CNN
+        </a>
+    </p>
+</body>
+</html>
